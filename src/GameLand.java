@@ -391,6 +391,7 @@ public class GameLand implements Runnable {
             redBoltIsIntersectinggreenBolt=false;
         }
 //        redBolt1 with greenBolt
+//        help
         if (redBolt1.rec.intersects(greenBolt.rec) && redBolt1IsIntersectinggreenBolt==false){
             System.out.println("ouch");
             redBolt1IsIntersectinggreenBolt=true;
